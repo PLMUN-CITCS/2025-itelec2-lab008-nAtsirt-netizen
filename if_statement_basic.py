@@ -5,7 +5,6 @@ if temperature > 30:
 
 if_else_statement.py
 
-
 try:
     user_input = input("Enter a number: ")
     number = int(user_input)  # Convert input to integer
@@ -17,4 +16,3 @@ try:
 
 except ValueError:
     print("Invalid input. Please enter an integer.")
-
